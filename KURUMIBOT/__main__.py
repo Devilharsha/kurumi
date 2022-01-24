@@ -52,7 +52,7 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 Hi {}, my name is {}! 
-I am an Anime themed group management bot. I will use my angel Zafkiel and protect your group. You can find my list of available commands with /help.
+I am an Anime themed group management bot. I will use my ninja powers and protect your group. You can find my list of available commands with /help.
 """
 
 HELP_STRINGS = """
@@ -69,10 +69,10 @@ For all command use / [or](https://telegra.ph/file/b1b545eb4877b012eac82.png) !
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\nKindly use ! for commands if / is not working\n")
 
-TOKISAKI_IMG = "https://telegra.ph/file/99bbcc3b8564804dc2ab0.jpg"
-KURUMI_IMG = "https://telegra.ph/file/e1d87ec2bdac4e3cfe0a4.mp4"
+TOKISAKI_IMG = "http://telegra.ph/file/8a3233459345eb6676e13.jpg"
+KURUMI_IMG = "http://telegra.ph/file/4f5ba37d96a552dd6d814.jpg"
 
-DONATE_STRING = """Heya, glad to hear you want to donate!
+DONATE_STRING = """Heya, nice to meet u to donate!
 Click here to donate in [Paypal](https://www.paypal.me/zameeljaz)"""
 
 IMPORTED = {}
@@ -191,7 +191,7 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(
                     [[
                         InlineKeyboardButton(
-                            text="☑️ Add Kurumi Chan to your group",
+                            text="☑️ Add Naruto Chan to your group",
                             url="t.me/{}?startgroup=true".format(
                                 context.bot.username))
                     ],
@@ -201,17 +201,17 @@ def start(update: Update, context: CallbackContext):
                              url=f"https://t.me/{SUPPORT_CHAT}"),
                          InlineKeyboardButton(
                              text="My luv ❤",
-                             url="https://t.me/A_lonelyPerson")
+                             url="https://t.me/harshahero")
                     ], 
                      [
                          InlineKeyboardButton(
                              text="🔔 Updates of KURUMI 🔔",
-                             url="https://t.me/hiroiscool")
+                             url="https://t.me/cartoonnetworkworl")
                     ], 
                      [
                          InlineKeyboardButton(
-                             text="📳 Anime Chat Group 📳",
-                             url="https://t.me/WeebXWorld")
+                             text="my maste 💖",
+                             url="https://t.me/EvilDeviI")
                     ]]))
                      
                     
